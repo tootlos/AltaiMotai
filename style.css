@@ -122,6 +122,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(10, 435px);
     gap: 30px;
+
+    grid-auto-flow: dense;
     
 }
 
@@ -213,6 +215,26 @@ body {
         font-size: 100px;
     }
 
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(9, 486px);
+    }
+
+
+    .gallery__card{
+        grid-row: span 1;
+        grid-column: span 2;
+    }
+
+
+    .gallery__card:nth-last-of-type(2n){
+        grid-column: span 1;
+    }
+
+
+    .gallery__card-description{
+        font-size: 20px;
+    }
     
 }
 
@@ -253,4 +275,21 @@ body {
     .footer{
         width: 150px;
     }
+
+
+    .gallery{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 357px);
+        padding: 0 30px;
+    }
+
+    .gallery__card{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
+    .gallery__card-description{
+        font-size: 16px;
+    }
+
 }
