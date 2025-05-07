@@ -154,6 +154,20 @@ body {
 .fifth{
     grid-column: span 2;
 }
+.sixth{
+    grid-column: span 3;
+}
+.seventh{
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.eleventh{
+    grid-column: span 2;
+}
+.twelfth{
+    grid-column: span 3;
+    grid-row: span 3;
+}
 
 
 
