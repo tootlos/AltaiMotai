@@ -249,4 +249,8 @@ body {
         gap: 20px;
         line-height: 1;
     }
+
+    .footer{
+        width: 150px;
+    }
 }
